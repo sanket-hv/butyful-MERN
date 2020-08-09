@@ -1,0 +1,28 @@
+{
+  "name": "butyful",
+  "version": "1.0.0",
+  "description": "This is the project API of butyful.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Sanket Vanani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "mysql": "^2.18.1",
+    "pdfkit": "^0.11.0",
+    "qrcode": "^1.4.4",
+    "qrious": "^4.0.2"
+  }
+}
